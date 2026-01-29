@@ -1,0 +1,34 @@
+.gridd{
+    display:grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    height: 500px;
+    GAP:10px 
+}
+
+.A{
+   grid-column: 1/4;
+   grid-row: 1/3;
+   background-color: rgb(229, 127, 255);
+}
+.B{
+    background-color: rgb(159, 255, 127);
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+.C{
+    background-color: aquamarine;
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+.D{
+    background-color: rgb(255, 27, 27);
+    grid-column: 4/6;
+    grid-row: 5/5;
+}
+.E{
+    background-color: rgb(255, 127, 217);
+    grid-column: 4/6;
+    grid-row: 1/3;
+    border-radius: 100%;
+}
